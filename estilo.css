@@ -7,7 +7,7 @@ body
 
 header
 {
-    background-color: rgb(187, 14, 14);
+    background-color: rgb(14, 31, 187);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +40,7 @@ header ul li a
 
 .container
 {
-    background-color: rgb(249, 174,137);
+    background-color: rgb(22, 191, 197);
 }
 
 nav ul
