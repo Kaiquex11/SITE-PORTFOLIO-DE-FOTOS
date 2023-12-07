@@ -1,0 +1,120 @@
+body
+{
+    margin: 0px;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header
+{
+    background-color: rgb(187, 14, 14);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header img
+{
+    height: 90px;
+    margin: 20px 0px 10px 0px;
+    border-radius: 90px;
+}
+
+header ul
+{
+    margin: 10px 0px 30px 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+header ul li a
+{
+    margin-right: 25px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.container
+{
+    background-color: rgb(249, 174,137);
+}
+
+nav ul
+{
+    margin: 20px 0px ;
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li
+{
+    margin-right: 35px;
+    margin-top: 25px;
+    font-size: 22px;
+    cursor: pointer;
+    color: rgb(171, 100,0);
+    font-weight: bold;
+
+}
+
+.fotografia
+{
+    width: 270px;
+    height: 300px;
+    background-color: white;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotografia h3
+{
+    margin: 0px;
+    margin-top: 22px;
+    font-size: 24px;
+} 
+
+.fotografia p
+{
+    margin: 0px;
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.fotos
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px 200px;
+    cursor: pointer;
+}
+
+header ul li a:hover
+{
+    border-bottom: 2px solid white;
+}
+
+nav ul li:hover
+{
+    border-bottom: 2px solid black;
+}
+
+.fotografia:hover
+{
+    border: 3px solid black;
+}
+
+.sumir
+{
+    display: none;
+}

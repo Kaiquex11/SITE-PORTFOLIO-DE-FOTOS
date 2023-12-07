@@ -1,0 +1,36 @@
+
+
+@media screen and(max-width: 1071px) and (min-width:851px )
+{
+    .fotos
+    {
+        padding: 70px 0px;
+    }
+}
+
+@media(max-width: 572px)
+{
+    .fotos
+    {
+        padding: 70px 0px;
+    }
+} 
+
+@media(max-width: 850px )
+{
+    header ul
+    {
+        margin: 10px 0px ;
+        padding-left: 55px;
+        flex-direction: column;
+        
+    }
+
+    nav ul 
+    {
+        margin: 20px 0px;
+        flex-direction: column;
+        padding-left: 20px;
+        font-size: 18px;
+    }
+}
